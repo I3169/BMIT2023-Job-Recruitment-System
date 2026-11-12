@@ -7,5 +7,6 @@ app.UseStaticFiles();
 app.MapDefaultControllerRoute();
 
 app.MapGet("/", () => "Hello World!");
+//mak kau hijau
 
 app.Run();
